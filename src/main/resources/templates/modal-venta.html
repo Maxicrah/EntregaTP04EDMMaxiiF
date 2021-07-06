@@ -10,7 +10,7 @@
 <div class="modal-body">
 	<form id="formProducto" th:object="${venta}" th:action="@{/producto/vender}" method="post">
 		<div class="form-group row">
-		<input type="hidden" th:field="*{producto.idProducto"> 
+		<input type="hidden" th:field"*{producto.idProducto"> 
 			<label for="numdoc" class="col-sm-2 col-form-label">Codigo</label>
 			<div class="col-sm-10">
 				<input type="number" id="numdoc" th:field="*{producto.codProducto}" class="form-control" disabled>
